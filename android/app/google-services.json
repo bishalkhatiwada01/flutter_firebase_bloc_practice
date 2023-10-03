@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1061794671437",
+    "project_id": "flutterbloc-5cfd8",
+    "storage_bucket": "flutterbloc-5cfd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061794671437:android:0e3946661ff98baa736504",
+        "android_client_info": {
+          "package_name": "com.example.bloc_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpjNVb0HX--Kt8TIucJKXUgngJR2njXWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

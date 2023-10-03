@@ -1,9 +1,6 @@
-name: bloc_flutter
-description: A new Flutter project.
-
+name: user_repository
+description: Dart package which manages the user.
 publish_to: 'none' 
-
-
 version: 1.0.0+1
 
 environment:
@@ -12,10 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
   cupertino_icons: ^1.0.2
-  firebase_core: ^2.17.0
+
 
 dev_dependencies:
   flutter_test:
