@@ -8,4 +8,11 @@ abstract class UserRepository {
   Future<MyUser> signUp(MyUser myUser, String password);
 
   Future<void> resetPassword(String email);
+
+  // setUserData
+  Future<void> setUserData(MyUser user);
+
+  //getMyUser
+  Future<void> getMyUser(String myUserId);
+  
 }
