@@ -17,6 +17,18 @@ class FirebaseUserRepository implements UserRepository {
 
   final userCollection = FirebaseFirestore.instance.collection('users');
 
+  ///Stream of [MyUser] which will emit the currentuser when the authentication state changes
+  ///
+  ///Emits [MyUser.empty] is the user is not authenticated.
+
+  @override
+  Stream<User?> get user {
+    return _firebaseAuth.authStateChanges().map((firebaseUser) {
+      final user = firebaseUser;
+      return user;
+    });
+  }
+
   @override
   Future<MyUser> signUp(MyUser myUser, String password) async {
     try {
